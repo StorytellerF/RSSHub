@@ -3947,15 +3947,12 @@
   },
   "91wllm.com": {
     "_name": "湖北高校就业网络联盟",
-    "ccnu": [
+    "wtu": [
       {
-        "title": "华中师范大学就业信息",
-        "docs": "https://docs.rsshub.app/university.html#hua-zhong-shi-fan-da-xue",
-        "source": [
-          "/news/index/tag/tzgg",
-          "/"
-        ],
-        "target": "/ccnu/career"
+        "title": "武汉纺织大学就业信息",
+        "docs": "https://docs.rsshub.app/university.html#wu-han-fang-zhi-da-xue",
+        "source": "/news/index/tag/:type",
+        "target": "/wtu/job/:type"
       }
     ]
   },
@@ -9808,6 +9805,28 @@
       }
     ]
   },
+  "hacking8.com": {
+    "_name": "Hacking8",
+    ".": [
+      {
+        "title": "信息流",
+        "docs": "https://docs.rsshub.app/programming.html#hacking8-xin-xi-liu",
+        "source": [
+          "/index/:category",
+          "/"
+        ],
+        "target": "/hacking8/:category?"
+      },
+      {
+        "title": "搜索",
+        "docs": "https://docs.rsshub.app/programming.html#hacking8-sou-suo",
+        "source": [
+          "/search",
+          "/"
+        ]
+      }
+    ]
+  },
   "hackmd.io": {
     "_name": "HackMD",
     ".": [
@@ -12970,6 +12989,16 @@
           "/"
         ],
         "target": "/jin10"
+      }
+    ],
+    "xnews": [
+      {
+        "title": "主题文章",
+        "docs": "https://docs.rsshub.app/finance.html#jin-shi-shu-ju",
+        "source": [
+          "/topic/:id"
+        ],
+        "target": "/jin10/topic/:id"
       }
     ]
   },
@@ -19033,6 +19062,19 @@
       }
     ]
   },
+  "sdzk.cn": {
+    "_name": "山东省教育招生考试院",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/study.html#shan-dong-sheng-jiao-yu-zhao-sheng-kao-shi-yuan-xin-wen",
+        "source": [
+          "/NewsList.aspx",
+          "/"
+        ]
+      }
+    ]
+  },
   "secrss.com": {
     "_name": "安全内参",
     ".": [
@@ -22907,6 +22949,14 @@
     "_name": "UNTAG",
     ".": [
       {
+        "title": "时间线",
+        "docs": "https://docs.rsshub.app/new-media.html#untag-shi-jian-xian",
+        "source": [
+          "/"
+        ],
+        "target": "/utgd/timeline"
+      },
+      {
         "title": "分类",
         "docs": "https://docs.rsshub.app/new-media.html#untag-fen-lei",
         "source": [
@@ -23756,6 +23806,15 @@
         "docs": "https://docs.rsshub.app/other.html#wu-chang-shou-yi-xue-yuan",
         "source": "/*",
         "target": "/wsyu/news/mtjj"
+      }
+    ]
+  },
+  "wtu.edu.cn": {
+    "_name": "武汉纺织大学",
+    "wtu": [
+      {
+        "title": "信息门户公告",
+        "docs": "https://docs.rsshub.app/university.html#wu-han-fang-zhi-da-xue"
       }
     ]
   },
